@@ -1,0 +1,156 @@
+<!DOCTYPE html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>网上花店</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="css/orman.css" type="text/css"
+	media="screen" />
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css"
+	media="screen" />
+
+<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/ddsmoothmenu.js">
+
+</script>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "templatemo_menu", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+
+</script>
+
+</head>
+
+<body>
+
+	<div id="templatemo_wrapper_sp">
+		<div id="templatemo_header_wsp">
+			<div id="templatemo_header" class="header_subpage">
+				<div id="site_title">
+					<a href="index.html" title="网上花店">网上花店</a>
+				</div>
+				<div id="templatemo_menu" class="ddsmoothmenu">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="about.html" class="selected">关于我们</a></li>
+						<li><a href="products.html">花卉种类</a>
+							<ul>
+								<li><a href="">种类一</a></li>
+								<li><a href="">二</a></li>
+								<li><a href="">三</a></li>
+								<li><a href="">四</a></li>
+								<li><a href="">五</a></li>
+							</ul></li>
+						<li><a href="checkout.html">网上订单</a></li>
+						<li><a href="contact.html">联系我们</a></li>
+						<li><a href="faqs.html">客户留言</a></li>
+					</ul>
+					<div id="templatemo_search">
+						<form action="#" method="get">
+							<input type="text" value="Site Search" name="keyword"
+								id="keyword" title="keyword" onfocus="clearText(this)"
+								onblur="clearText(this)" class="txt_field" /> <input
+								type="submit" name="Search" value="" alt="Search"
+								id="searchbutton" title="Search" class="sub_btn" />
+						</form>
+					</div>
+					<br style="clear: left" />
+				</div>
+				<!-- end of templatemo_menu -->
+
+			</div>
+			<!-- END of header -->
+		</div>
+		<!-- END of header wrapper -->
+		<div id="templatemo_main_wrapper">
+			<div id="templatemo_main">
+				<div id="sidebar" class="left">
+					<div class="sidebar_box">
+						<span class="bottom"></span>
+						<h3>花卉种类</h3>
+						<div class="content">
+							<ul class="sidebar_list">
+								<li><a href="#">种类一</a></li>
+								<li><a href="#">二</a></li>
+								<li><a href="#">三</a></li>
+								<li><a href="#">四</a></li>
+								<li><a href="#">五</a></li>
+								<li><a href="#">六</a></li>
+								<li><a href="#">七</a></li>
+								<li><a href="#">八</a></li>
+								<li><a href="#">九</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="sidebar_box">
+						<span class="bottom"></span>
+						<h3>Weekly Special</h3>
+						<div class="content special">
+							<img src="images/templatemo_image_01.jpg" alt="Flowers" /> <a
+								href="#">柑&nbsp;橘&nbsp;破&nbsp;裂&nbsp;花&nbsp;束</a>
+							<p>
+								<span class="price normal_price">原价：￥160</span><br> <span
+									class="price special_price">现价：￥100</span>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div id="content" class="right">
+					<h2>关于我们</h2>
+					<p>文字描述：优势什么的举例说明</p>
+					<ul class="tmo_list_circle">
+						<li>优势</li>
+						<li>优势</li>
+						<li>优势</li>
+						<li>优势</li>
+						<li>优势</li>
+					</ul>
+					<div class="cleaner h20"></div>
+					<h3>描述二</h3>
+					<p>文字描述</p>
+					<div class="cleaner"></div>
+					<blockquote>主要优势</blockquote>
+				</div>
+				<div class="cleaner"></div>
+			</div>
+			<!-- END of main -->
+		</div>
+		<!-- END of main wrapper -->
+
+		<div id="templatemo_footer_wrapper">
+			<div id="templatemo_footer">
+				<div class="footer_right">
+					<p>
+						<a href="index.html">首页</a> | <a href="products.html">花卉品种</a> | <a
+							href="about.html">关于我们</a> | <a href="faqs.html">客户留言</a> | <a
+							href="checkout.html">网上订单</a> | <a href="contact.html">联系我们</a>
+					</p>
+				</div>
+				<div class="cleaner"></div>
+			</div>
+			<!-- END of footer -->
+		</div>
+		<!-- END of footer wrapper -->
+	</div>
+
+</body>
+<script type='text/javascript' src='js/logging.js'></script>
+</html>
